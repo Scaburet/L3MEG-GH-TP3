@@ -19,7 +19,7 @@ dependencies:
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse
-  - nbextension
+  # - jupyter_contrib_nbextensions
   - ipyigv
   - pip:
     - bash_kernel
