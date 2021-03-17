@@ -4,6 +4,7 @@ jupyter labextension install \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text
 
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-igv
 
 # jupyter contrib nbextension install --sys-prefix
 jupyter nbextension enable --py --sys-prefix ipyigv
