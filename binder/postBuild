@@ -7,4 +7,3 @@ jupyter labextension install \
 jupyter nbextension enable --py --sys-prefix ipyigv
 python -m bash_kernel.install --sys-prefix
 
-python -m http.server 8000 --directory /srv/data/meg-l3-gh/DataTP1/RefGenomes/Human/Chr6/
