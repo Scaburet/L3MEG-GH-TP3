@@ -1,4 +1,4 @@
-name: plasmabio-template-python
+name: L3MEG-GH-TP3
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -16,3 +16,10 @@ dependencies:
   - nbresuse
   - psutil
   - pip
+  - r-irkernel
+  - r-base>=3.6
+  - r-tidyverse
+  - nbextension
+  - ipyigv
+  - pip:
+    - bash_kernel
