@@ -3,7 +3,10 @@ jupyter labextension install \
   jupyterlab-topbar-extension \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text
-  
-jupyter nbextension enable --py --sys-prefix ipyigv
+
+
+# jupyter contrib nbextension install --sys-prefix
+# jupyter nbextension enable --py --sys-prefix ipyigv
+
 python -m bash_kernel.install --sys-prefix
 
